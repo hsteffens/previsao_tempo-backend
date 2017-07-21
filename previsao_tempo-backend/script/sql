@@ -1,0 +1,9 @@
+CREATE DATABASE previsaotempo; 
+USE previsaotempo;
+CREATE TABLE City (
+    ID int NOT NULL PRIMARY KEY,
+    Name varchar(255) NOT NULL,
+    Country varchar(255) NOT NULL,
+    latitude DOUBLE,
+    longitude DOUBLE
+);
